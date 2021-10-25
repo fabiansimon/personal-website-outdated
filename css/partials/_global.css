@@ -1,0 +1,35 @@
+
+
+
+/* Global Classes */
+
+.title-text{
+    font: normal 500 45px/ 72px var(--poppins);
+}
+
+.normal-text{
+    font: normal 400 15px/22px var(--poppins);
+}
+
+
+/* Buttons */
+
+.button{
+    padding: .8rem 2.2rem;
+    font: normal 500 16px/20px var(--poppins);
+    position: relative;
+    border: 2px solid black;
+    box-shadow: var(--box-shadow);
+    border-radius: 8px;
+}
+
+.button.primary-button{
+    background: var(--primary-color2);
+    color: white;
+
+}
+
+.button.primary-button:hover{
+    background: white; 
+    color: black;
+}

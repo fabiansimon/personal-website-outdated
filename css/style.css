@@ -1,0 +1,350 @@
+
+/* import fonts from fonts.css file */
+@import url(./fonts.css);
+
+
+/* css variables */
+@import url(./partials/_variables.css);
+
+
+
+/* import global styling */
+@import url(./partials/_global.css);
+
+
+
+/* Start Navigation */
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar-brand img{
+  padding-top: 10px;
+  height: 80px;
+}
+
+.header_area .main-menu .navbar{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 100;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 400 15px/2px var(--poppins);
+    text-transform: lowercase;
+    padding: 1.7rem;
+    color: var(--text-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    color: var(--primary-color); 
+}
+
+
+.header_area .main-menu .navbar-nav a:hover {
+    color: var(--primary-color);
+}
+
+
+/* End Navigation */
+
+/* Banner Area */
+
+.site-main{
+  width: 100%;
+  height: 100%;
+}
+
+.site-main .site-banner{
+  background: url("../img/banner/backgroundBanner.png") no-repeat 50% 50%;
+  height: 90%;
+  width: 100%;
+}
+
+.site-main .site-banner .container {
+  padding-top: 20%;
+  /* margin-right: auto; */
+}
+
+.site-main .site-banner .shadowBox1{
+    display: flex;
+    flex-direction: row; 
+    padding: 2% 8% 0% 4%;
+    height: min-content;
+    width: max-content;
+    border: solid 2px black;
+    box-shadow: var(--box-shadow);
+    border-radius: 18px;
+    background-color: white;
+}
+
+.site-main .site-banner .shadowBox1 .containerEmoji{
+  padding: 6%;
+}
+
+.site-main .site-banner .shadowBox2{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 2% 4% 0% 4%;
+    height: min-content;
+    width: 50%;
+    border: solid 2px black;
+    box-shadow: var(--box-shadow);
+    border-radius: 16px;
+    background-color: white;
+}
+
+.site-main .site-banner .banner-image{
+    margin-bottom: 40%;
+    font-size: 22px;
+}
+
+.site-main .site-banner .site-button{
+  padding-left: 35%;
+  padding-top: 5%;
+}
+
+/* End Banner Area */
+
+/* Start Projects Are */
+
+.site-main-projects .site-projects .container{
+  max-width: inherit;
+  max-height: inherit;
+  width: 100%;
+  background: rgb(231,29,54);
+  background: linear-gradient(139deg, rgba(231,29,54,1) 0%, rgba(159,32,47,1) 100%);
+}
+
+.site-main-projects .site-projects .container .col h1{
+  color: white;
+  padding-top: 8%;
+  padding-left: 10%;
+}
+
+.site-main-projects .site-projects .container .row img {
+  flex-basis: 10%;
+  padding: 8%;
+  transform: rotate(-10deg);
+}
+
+.site-main-projects .site-projects .container .col .row{
+  /* display: flex; */
+  flex-direction: row-reverse; 
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  padding: 4%;
+}
+
+.site-main-projects .site-projects .container .col h4{
+  color: white;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 8%;
+  font-size: 18px;
+}
+
+/* End Projects Are */
+
+/* Start Contact Us */
+
+.site-main-contact .site-contact-us {
+  background: url("../img/banner/backgroundBanner.png") no-repeat 50% 110%;
+  height: 100%;
+  width: 100%;
+  margin-top: 0%;
+}
+
+.site-main-contact .site-contact-us .container{
+  padding-top:10%;
+}
+
+.site-main-contact .site-contact-us .container .box-1{
+  display: flex;
+  flex-direction: row; 
+  margin: 10% 20% 0% 20%;
+  border: solid 2px black;
+  box-shadow: var(--box-shadow);
+  border-radius: 20px;
+  background-color: white;
+  height: 75px;
+}
+
+.site-main-contact .site-contact-us .box-1 .emoji{
+  margin: 2%;
+  height: 10px;
+}
+
+.site-main-contact .site-contact-us .box-1 img{
+  height: 500%;
+}
+
+.site-main-contact .site-contact-us .container h1{
+  color: var(--text-color);
+  padding-top: 0.5%;
+  padding-bottom: 2%;
+  font-size: 18px;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical; 
+  box-shadow: var(--box-shadow);
+  border-radius: 14px;
+  background-color: white;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: var(--primary-color2);
+  font-weight: 500;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: var(--box-shadow);
+  border-radius: 14px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: white;
+  color: var(--text-color);
+  
+}
+
+ .container-contact-us {
+  padding: 5% 15% 0% 15%;
+}
+
+
+.site-contact-us .plane-container {
+  position: absolute;
+  right: 30%;
+}
+
+.site-contact-us .plane-container .paper-plane {
+  color: black;
+  opacity: 0.4;
+  font-size: 600%;
+  font-weight: 100;
+  
+}
+/* End Contact Us */
+
+/* Start Social Media Sticky */
+
+.icon-bar {
+    background: var(--primary-color);
+    position: fixed;
+    top: 50%;
+    left: 1.5%;
+    transform: translateY(-50%);
+    border-radius: 30px;
+    border: 2px solid white;
+    padding: .4%;
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+    margin-top: 10%;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+    border-radius: 100px;
+  }
+  
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: white;
+    color: var(--primary-color);
+  }
+  
+  .twitter {
+    background: var(--primary-color);
+  }
+  
+  .instagram {
+    background: var(--primary-color);
+
+  }
+  
+  .facebook {
+    background: var(--primary-color);
+  }
+  
+/* End Social Media Sticky */
+
+/* Responsive Settings */
+
+@media only screen and (max-width: 800px){
+
+  .site-main .site-banner .banner-image{
+    margin-top: 12%;
+    margin-bottom: 40%;
+    font-size: 22px;
+}
+
+  .site-main-projects .site-projects .container .col h1{
+    padding-top: 40%;
+    text-align: center;
+  }
+
+  .site-main-projects .site-projects .container h4{
+    text-align: center;
+    line-height: 30px;
+  }
+
+  .site-main-projects .site-projects .container .col .row{
+    /* display: flex; */
+    flex-direction: row-reverse; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 15%;
+  }
+
+  .site-main-projects .site-projects .container .row img {
+    flex-basis: 10%;
+    padding: 8%;
+    transform: rotate(0);
+  }
+
+  .site-main .site-banner .container {
+    padding-top: 50%;
+  }
+
+  .site-main-contact .site-contact-us .container .box-1{
+    display: flex;
+    flex-direction: row; 
+    margin: 10% 2% 2% 2%;
+    padding-top: 1%;
+    border: solid 2px black;
+    box-shadow: var(--box-shadow);
+    border-radius: 20px;
+    height: 75px;
+  }
+
+  .site-main-contact .site-contact-us .box-1 .text h1{
+    line-height: normal;
+  }
+
+  .site-main-contact .site-contact-us .container{
+    padding-top: 60%;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}

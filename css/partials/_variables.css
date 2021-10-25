@@ -1,0 +1,28 @@
+
+
+
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* CSS Variables */
+
+:root{
+    --primary-color: #E71D36;
+    --primary-color2: #32C5FF;
+    --text-color: #131415;
+    --text-color2: #111111;
+
+    --poppins: "Poppins", cursive;
+
+/* tutorial variables*/
+
+    --gradient-color: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    --shadow-color: 0px 10px 30px rgba(118, 85, 225, 0.3);
+    --box-shadow: 4px 4px 0px  black;
+
+}
